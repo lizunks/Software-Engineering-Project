@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:background="@drawable/img_bg_texture"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Welcome："
+                    android:id="@+id/textView30" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView36" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/selector_list_blockbg_top">
+
+                    <TextView
+                        style="@android:style/Widget.Holo.DropDownItem.Spinner"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:text="查看个人信息"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/textView31" />
+
+                    <ImageView
+                        android:layout_width="14.0dip"
+                        android:layout_height="14.0dip"
+                        android:layout_marginRight="8.0dip"
+                        android:src="@drawable/open_arrow"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/imageView2" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/change_info_bt"
+                        android:background="@color/abc_primary_text_material_dark"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50.0dp"
+                    android:background="@drawable/selector_list_blockbg_top"
+                    android:clickable="false">
+
+                    <ImageView
+                        android:layout_width="14.0dip"
+                        android:layout_height="14.0dip"
+                        android:layout_marginRight="8.0dip"
+                        android:src="@drawable/open_arrow"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/imageView3" />
+
+                    <TextView
+                        style="@android:style/Widget.Holo.DropDownItem.Spinner"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:text="我希望购买的商品"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/textView32" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sale_info_bt"
+                        android:background="@color/abc_primary_text_material_dark"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50.0dp"
+                    android:background="@drawable/selector_list_blockbg_top"
+                    android:clickable="false" >
+
+                    <ImageView
+                        android:layout_width="14.0dip"
+                        android:layout_height="14.0dip"
+                        android:layout_marginRight="8.0dip"
+                        android:src="@drawable/open_arrow"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/imageView4" />
+
+                    <TextView
+                        style="@android:style/Widget.Holo.DropDownItem.Spinner"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:text="我出售的商品"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/textView33" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/req_info_bt"
+                        android:background="@color/abc_primary_text_material_dark"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50.0dp"
+                    android:background="@drawable/selector_list_blockbg_top"
+                    android:clickable="false" >
+
+                    <ImageView
+                        android:layout_width="14.0dip"
+                        android:layout_height="14.0dip"
+                        android:layout_marginRight="8.0dip"
+                        android:src="@drawable/open_arrow"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/imageView5" />
+
+                    <TextView
+                        style="@android:style/Widget.Holo.DropDownItem.Spinner"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:text="我已购买的商品"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/textView34" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/trading_info_bt"
+                        android:background="@color/abc_primary_text_material_dark"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50.0dp"
+                    android:background="@drawable/selector_list_blockbg_top"
+                    android:clickable="false" >
+
+                    <ImageView
+                        android:layout_width="14.0dip"
+                        android:layout_height="14.0dip"
+                        android:layout_marginRight="8.0dip"
+                        android:src="@drawable/open_arrow"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/imageView6" />
+
+                    <TextView
+                        style="@android:style/Widget.Holo.DropDownItem.Spinner"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:text="登出"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/textView35" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_logout"
+                        android:background="@color/abc_primary_text_material_dark"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.owenzx.jy_zx_1">
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".AdFormActivity" />
+        <activity android:name=".AdsSearchActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.SEARCH"/> -->
+            <!-- </intent-filter> -->
+            <!--  -->
+        </activity>
+        <activity android:name=".AdDetailActivity" />
+        <activity
+            android:name=".MainNavigationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReqFormActivity" />
+        <activity android:name=".ReqDetailActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".Info_Activity" />
+        <activity android:name=".Per_info_Activity" />
+        <activity android:name=".Per_Buy_Activity" />
+        <activity android:name=".Per_Req_Activity" />
+        <activity android:name=".Per_Sale_Activity" />
+        <activity android:name=".CommentMessageActivity" />
+        <activity android:name=".DealMessageActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".UpdateUserActivity" />
+        <activity android:name=".CommentDealActivity" />
+        <activity android:name=".AcceptTradeActivity"></activity>
+
+
+    </application>
+
+</manifest>
